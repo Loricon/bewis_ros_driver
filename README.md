@@ -4,13 +4,21 @@
 安装步骤
 
 mkdir & cd catkin_ws
+
 mkdir src
+
 cd src
+
 gitclone https://github.com/ros-drivers/nmea_comms.git
+
 cd ..
+
 catkin_make
+
 source /build/setup.bash
 
+
 运行
+
 
 rosrun serialtest serialtest
