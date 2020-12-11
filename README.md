@@ -9,7 +9,7 @@ mkdir src
 
 cd src
 
-gitclone https://github.com/ros-drivers/nmea_comms.git
+gitclone https://github.com/Loricon/bewis_ros_driver.git
 
 cd ..
 
@@ -20,5 +20,6 @@ source /build/setup.bash
 
 运行
 
+roscore
 
 rosrun serialtest serialtest
