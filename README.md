@@ -31,11 +31,10 @@ sudo apt-get install ros-${ROS_DISTRO}-novatel-gps-driver
         args="standalone novatel_gps_driver/novatel_gps_nodelet">
     <rosparam>
       connection_type: serial
-      device: /dev/ttyUSB0
+      device: /dev/ttyS0
+      imu_sample_rate: 100
+      publish_imu_messages: true
       frame_id: /gps
-      publish_novatel_velocity: true
-      publish_novatel_positions: true
-      publish_novatel_psrdop2: true
     </rosparam>
   </node>
 </launch>
