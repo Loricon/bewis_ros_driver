@@ -43,7 +43,7 @@ int main(int argc, char **argv)
     /***************************************************************************************/
     std::string port0="/dev/ttyUSB0";
 
-    array<std::string,3> port={"/dev/ttyUSB1","/dev/ttyUSB2","/dev/ttyUSB3"};
+    array<std::string,3> port={"/dev/ttyUSB0","/dev/ttyUSB1","/dev/ttyUSB2"};
    //  connect(port[1]);
    //  msg_sentence();
 
@@ -52,12 +52,12 @@ int main(int argc, char **argv)
     int test3=2;
     thread th1(read_serial_port,port[0],test1);
     thread th2(read_serial_port,port[1],test2);
-    thread th4(read_serial_port,port[2],test3);
+  //  thread th4(read_serial_port,port[2],test3);
     thread th3(sensor_data,argc,argv);
     th1.join(); 
     th2.join(); 
     th3.join();   
-    th3.join();
+   // th4.join();
 
 
 
