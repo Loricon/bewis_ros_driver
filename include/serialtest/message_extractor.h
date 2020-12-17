@@ -222,7 +222,7 @@ void msg_sentence0(int test)
 
         else // 串口无读取
         {
-           ROS_INFO("Read sensor %d fail----!", test);
+          // ROS_INFO("Read sensor %d fail----!", test);
         }
     }
 }
@@ -326,7 +326,7 @@ void msg_sentence1(int test)
 
         else // 串口无读取
         {
-           ROS_INFO("Read sensor %d fail----!", test);
+         //  ROS_INFO("Read sensor %d fail----!", test);
          
         }
     }
@@ -432,9 +432,11 @@ void msg_sentence2(int test)
 
         else // 串口无读取
         {
-          ROS_INFO("Read sensor %d fail----!", test);
+        //  ROS_INFO("Read sensor %d fail----!", test);
         }
     }
 }
+
+
 
 
