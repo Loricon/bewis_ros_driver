@@ -16,7 +16,13 @@ KERNEL==”ttyUSB[0-9]*”, MODE=”0666”
 插入串口设备，自动获取权限
 
 
+## 安装UTM WGS84坐标系转换
 
+ROS - Python and C++ interfaces for manipulating geodetic coordinates
+
+```bash
+sudo apt-get install ros-melodic-geodesy
+```
 
 
 
