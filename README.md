@@ -9,7 +9,7 @@
 ```bash
 sudo gedit /etc/udev/rules.d/70-ttyusb.rules
 ```
-把以下内容复制到文件并保存
+把以下内容复制到文件并保存(非虚拟串口修改对应内容即可获取权限)
 ```bash
 KERNEL==”ttyUSB[0-9]*”, MODE=”0666”
 ```
