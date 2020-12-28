@@ -46,6 +46,9 @@ catkin build
 ```bash
 sudo apt-get install ros-${ROS_DISTRO}-novatel-gps-driver
 ```
+
+（注意source或加入.bashrc）
+
 创建启动文件.launch
 
 ```bash
