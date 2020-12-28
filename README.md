@@ -41,7 +41,7 @@ git clone https://github.com/swri-robotics/novatel_gps_driver
 rosdep install . --from-paths -i
 catkin build
 ```
-如果出现未识别的消息格式，可以安装2进制驱动
+如果出现未识别的消息格式，可以安装2进制驱动(无法二次开发，不建议)
 
 ```bash
 sudo apt-get install ros-${ROS_DISTRO}-novatel-gps-driver
@@ -63,6 +63,8 @@ sudo apt-get install ros-${ROS_DISTRO}-novatel-gps-driver
     </rosparam>
   </node>
 </launch>
+
+
 ```
 
 
