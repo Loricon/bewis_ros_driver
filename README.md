@@ -37,7 +37,7 @@ cd ..
 catkin init
 catkin config --cmake-args -DCMAKE_BUILD_TYPE=RelWithDebInfo
 cd src
-https://github.com/Loricon/bewis_ros_driver.git
+git clone https://github.com/Loricon/bewis_ros_driver.git
 rosdep install . --from-paths -i
 catkin build
 ```
