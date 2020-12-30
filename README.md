@@ -95,4 +95,10 @@ rosrun serialtest serialtest
 ```
 
 
+提示：编译过程中出现未发现依赖未安装或缺少某文件时，建议运行rosdep install . --from-paths -i
+
+
+
+
+
 
